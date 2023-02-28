@@ -1,0 +1,36 @@
+.place__title {
+  width: 460px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  /* or 106% */
+  color: #FFFFFF;
+  grid-column-start: 1;
+  /* grid-column-end: 1; */
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1280px) {
+  .place__title {
+    width: 340px;
+    font-size: 42px;
+    line-height: 46px;
+    align-self: end;
+  }
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 768px) {
+  .place__title {
+    width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    justify-self: center;
+    margin-bottom: 30px;
+  }
+}

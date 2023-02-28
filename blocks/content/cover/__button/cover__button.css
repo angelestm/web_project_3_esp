@@ -1,0 +1,17 @@
+.cover__button {
+  width: 198px;
+  height: 48px;
+  padding: 13px 20px;
+  background: #0278FE;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.cover__button:hover {
+  background: #0063D2;
+}

@@ -1,0 +1,32 @@
+.header__title {
+  width: 793px;
+  height: 200px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 104%;
+  /* or 104% */
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 90px;
+}
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1280px) {
+  .header__title {
+    width: 720px;
+  }
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 768px) {
+  .header__title {
+    width: 288px;
+    height: 88px;
+    font-size: 40px;
+    line-height: 44px;
+    margin-top: 50px;
+  }
+}

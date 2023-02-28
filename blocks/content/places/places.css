@@ -1,0 +1,24 @@
+.places {
+  width: 987px;
+  display: grid;
+  row-gap: 48px;
+  margin-bottom: 90px;
+}
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1280px) {
+  .places {
+    width: 720px;
+    margin-bottom: 200px;
+  }
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 768px) {
+  .places {
+    width: 320px;
+    margin-bottom: 0px;
+  }
+}

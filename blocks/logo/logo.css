@@ -1,0 +1,14 @@
+.logo {
+  width: 270px;
+  height: 70px;
+  padding-top: 34px;
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 768px) {
+  .logo {
+    width: 200px;
+    padding-top: 20px;
+  }
+}

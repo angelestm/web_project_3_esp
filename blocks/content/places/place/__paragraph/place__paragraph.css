@@ -1,0 +1,16 @@
+.place__paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  /* or 29px */
+  color: #FFFFFF;
+}
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1280px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
+}
