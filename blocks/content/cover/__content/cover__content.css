@@ -21,6 +21,6 @@ and (min-device-width: 320px)
 and (max-device-width: 768px) {
   .cover__content {
     width: 288px;
-    top: 46px
+    top: 46px;
   }
 }

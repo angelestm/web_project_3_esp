@@ -27,6 +27,6 @@ and (max-device-width: 768px) {
     grid-column: 1;
     grid-row: 4;
     justify-self: center;
-    margin-bottom: 10px
+    margin-bottom: 10px;
   }
 }
