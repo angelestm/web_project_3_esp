@@ -5,17 +5,15 @@
   grid-gap: 48px;
 }
 
-@media only screen
-and (min-device-width: 768px)
-and (max-device-width: 1280px) {
+@media screen
+and (max-width: 768px) {
   .place {
     grid-template-rows: 1fr 350px 150px;
   }
 }
 
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 768px) {
+@media screen
+and (max-width: 320px) {
   .place {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;

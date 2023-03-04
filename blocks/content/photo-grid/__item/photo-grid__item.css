@@ -4,9 +4,8 @@
 }
 
 
-@media only screen
-and (min-device-width: 768px)
-and (max-device-width: 1280px) {
+@media screen
+and (max-width: 768px) {
   .photo-grid__item {
     width: 352px;
     height: 264px;

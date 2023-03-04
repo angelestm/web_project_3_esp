@@ -12,9 +12,8 @@
   grid-row-end: 1;
 }
 
-@media only screen
-and (min-device-width: 768px)
-and (max-device-width: 1280px) {
+@media screen
+and (max-width: 768px) {
   .place__title {
     width: 340px;
     font-size: 42px;
@@ -23,9 +22,8 @@ and (max-device-width: 1280px) {
   }
 }
 
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 768px) {
+@media screen
+and (max-width: 320px) {
   .place__title {
     width: 288px;
     font-size: 32px;

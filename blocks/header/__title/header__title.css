@@ -11,17 +11,15 @@
   margin-top: 90px;
 }
 
-@media only screen
-and (min-device-width: 768px)
-and (max-device-width: 1280px) {
+@media screen
+and (max-width: 768px) {
   .header__title {
     width: 720px;
   }
 }
 
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 768px) {
+@media screen
+and (max-width: 320px) {
   .header__title {
     width: 288px;
     height: 88px;

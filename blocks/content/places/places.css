@@ -5,18 +5,16 @@
   margin-bottom: 90px;
 }
 
-@media only screen
-and (min-device-width: 768px)
-and (max-device-width: 1280px) {
+@media screen
+and (max-width: 768px) {
   .places {
     width: 720px;
     margin-bottom: 200px;
   }
 }
 
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 768px) {
+@media screen
+and (max-width: 320px) {
   .places {
     width: 320px;
     margin-bottom: 0px;

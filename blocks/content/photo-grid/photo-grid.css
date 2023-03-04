@@ -7,9 +7,8 @@
   margin-bottom: 90px;
 }
 
-@media only screen
-and (min-device-width: 768px)
-and (max-device-width: 1280px) {
+@media screen
+and (max-width: 768px) {
   .photo-grid {
     width: 720px;
     grid-template-rows: repeat(4, 1fr);
@@ -17,9 +16,8 @@ and (max-device-width: 1280px) {
   }
 }
 
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 768px) {
+@media screen
+and (max-width: 320px) {
   .photo-grid {
     width: 288px;
     margin-bottom: 60px;

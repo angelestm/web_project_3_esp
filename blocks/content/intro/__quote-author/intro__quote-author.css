@@ -12,9 +12,8 @@
   margin-bottom: 30px;
 }
 
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 768px) {
+@media screen
+and (max-width: 320px) {
   .intro__quote-author {
     width: 100%;
     margin-top: 5px;

@@ -21,9 +21,8 @@
   background: #0063D2;
 }
 
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 768px) {
+@media screen
+and (max-width: 320px) {
   .place__button {
     width: 288px;
     font-size: 14px;
