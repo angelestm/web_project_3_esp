@@ -7,3 +7,12 @@
   color: #FFFFFF;
   text-decoration: none;
 }
+
+@media screen
+and (max-width: 320px) {
+  .place__url-text {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+

@@ -20,8 +20,6 @@
 and (max-width: 320px) {
   .place__button {
     width: 288px;
-    font-size: 14px;
-    line-height: 17px;
     grid-row: 5;
     justify-self: center;
   }
